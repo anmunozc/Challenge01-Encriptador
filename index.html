@@ -1,37 +1,38 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <title>Encriptador</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <title>Challenge 01- Encriptador de Palabras</</title>
 </head>
 
-<main>
-    <section class="contenedor">
+<body>
+    <div class="contenedor">
         <div class="logo">
-                <img class="imgLogo" src="imagenes/Logo.png">
-                <h1 class="tittle"> Encriptador</h1>
-            </div>
+        <img class= "logoAlura" src="imagenes/Logo.png" id="logoAlura" alt="Logo Alura">
+        <h1 class="titulo">Encriptador de Palabras</h1>
+    </div>
 
-            <div class="left">
-                <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aquí">
-            </div>
-             <div class="right">
-                <img id="imgFigura" src="imagenes/figura.png">
-                <h1 id="texto">Ningun mensaje fue encontrado</h1>
-                <textarea name="name" id="texto2" cols="80" rows="8">Ingrese el texto que desea desencriptar</textarea>
-                <button type="button" id="copiar" onclick="copiar()" style="cursor:pointer;cursor:hand">¡Copiar!</button>
-            </div>
-        
-            <div class="left-button">
-                <p>Solo minusculas y sin acentos</p>
-                <button type="button" id="btn-encriptar" onclick="encriptar()" style="cursor:pointer;cursor:hand">Encriptar</button>
-                <button type="button" id="btn-desencriptar" onclick="desencriptar()" style="cursor:pointer;cursor:hand">Desencriptar</button>
-            </div>
-    </section>
-</main>
+    <div class="left">
+        <input class="text-input" type="text" placeholder="Ingrese el texto aqui">
+    </div>
 
+    <div class="right">
+        <img class="figura" src="imagenes/figura.png" id="figura" alt="Persona con Lupa">
+        <h1>Ningun Mensaje Fue Encontrado</h1>
+        <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desea encriptar o desencriptar</textarea>
+    </div>
+
+    <div class="left-button">
+        <p>Solo minusculas y sin acentos</p>
+        <button type="button" id="btn-Encriptar">Encriptar</button>
+        <button type="button" id="btn-Desencriptar">Desencriptar</button>
+    </div>
+
+
+</body>
+            
 <footer>
     <p>By AMC</p>
 </footer>
