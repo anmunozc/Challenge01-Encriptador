@@ -41,10 +41,10 @@ background: red;
     margin: 10% 0 0 10%;
     width: 80%;
     height: 80%;
-    blackground: #0A3871;
+    background: #0A3871;
     font-size: 20px;
     border: none;
-    autoline: none;
+    outline: none;
 }
 
 #figura{
