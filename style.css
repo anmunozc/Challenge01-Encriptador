@@ -41,7 +41,7 @@ background: red;
     margin: 10% 0 0 10%;
     width: 80%;
     height: 80%;
-    background: #0A3871;
+    color: #0A3871;
     font-size: 20px;
     border: none;
     outline: none;
@@ -95,12 +95,15 @@ background: red;
     border-radius: 35px;
     background: orange;
 
-
-
 }.left-button{
     float: left;
     width: 70%;
     height: auto;
     border-radius: 35px;
     background: pink;
+}
+
+#copiar{
+    margin: 0 0 0 39%;
+    display: none;
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Challenge 01- Encriptador de Palabras</</title>
+    <title>Challenge 01- Encriptador de Palabras</title>
 </head>
 
 <body>
@@ -22,12 +22,13 @@
         <img class="figura" src="imagenes/figura.png" id="figura" alt="Persona con Lupa">
         <h1>Ningun Mensaje Fue Encontrado</h1>
         <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desea encriptar o desencriptar</textarea>
+        <button id="copiar" type="button" name="button" onclick="copy">¡Copiar!</button>
     </div>
 
     <div class="left-button">
         <p>Solo minusculas y sin acentos</p>
-        <button type="button" id="btn-Encriptar">Encriptar</button>
-        <button type="button" id="btn-Desencriptar">Desencriptar</button>
+        <button type="button" id="btn-Encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="btn-Desencriptar" onclick="desencriptar()">Desencriptar</button>
     </div>
 
 
