@@ -5,38 +5,38 @@
 // "u" se converte en "ufat
 
 function encriptar(){
-    var texto= document.getElementById("ingresarTexto").value.toLowerCase();
-    var txtCrifrado=texto.replace("a","ai");
-    var txtCrifrado=texto.replace("e","enter");
-    var txtCrifrado=texto.replace("i","imes");
-    var txtCrifrado=texto.replace("o","ober");
-    var txtCrifrado=texto.replace("u","ufat");
+    var texto = document.getElementById("text-input").value.toLowerCase();
+    var txtCrifrado = txtCrifrado.replace(/a/gm,"ai");
+    var txtCrifrado = txtCrifrado.replace(/e/gm,"enter");
+    var txtCrifrado = txtCrifrado.replace(/i/gm,"imes");
+    var txtCrifrado = txtCrifrado.replace(/o/gm,"ober");
+    var txtCrifrado = txtCrifrado.replace(/u/gm,"ufat");
     
    document.getElementById("figura").style.display="none";
-   document.getElementById("texto").style.display="none";
-   document.getElementById("texto2").innerHTML=txtCrifrado;
-   Document.getElementById("copiar").style.display="show";
-   document.getElementById("copiar").style.display=innerit;
+   document.getElementById("texto").style.display ="none";
+   document.getElementById("texto2").innerHTML = txtCifrado;
+   document.getElementById("copiar").style.display ="show";
+   document.getElementById("copiar").style.display ="inherit";
 }
 
    function desencriptar(){
-    var texto= document.getElementById("ingresarTexto").value.toLowerCase();
-    var txtCrifrado=texto.replace("ai","a");
-    var txtCrifrado=texto.replace("enter","e");
-    var txtCrifrado=texto.replace("imes","i");
-    var txtCrifrado=texto.replace("ober","o");
-    var txtCrifrado=texto.replace("ufat","u");
+    var texto= document.getElementById("text-input").value.toLowerCase();
+    var txtCrifrado = txtCrifrado.replace(/ai/gm,"a");
+    var txtCrifrado = txtCrifrado.replace(/enter/gm,"e");
+    var txtCrifrado = txtCrifrado.replace(/imes/gm,"i");
+    var txtCrifrado = txtCrifrado.replace(/ober/gm,"o");
+    var txtCrifrado = txtCrifrado.replace(/ufat/gm,"u");
 
-    document.getElementById("figura").style.display="none";
-    document.getElementById("texto").style.display="none";
-    document.getElementById("texto2").innerHTML=txtCrifrado;
-    Document.getElementById("copiar").style.display="show";
-    document.getElementById("copiar").style.display=innerit;
+    document.getElementById("figura").style.display = "none";
+    document.getElementById("texto").style.display = "none";
+    document.getElementById("texto2").innerHTML = txtCifrado;
+    document.getElementById("copiar").style.display = "show";
+    document.getElementById("copiar").style.display = "inherit";
 }
 
-function copiar(){
-    var contenido=document.querySelector("texto2");
-    contenido.ariaSelected();
-    document.designMode("cut");
-    alert("Se Copió");
+function copy() {
+    var contenido = document.querySelector("#texto2");
+    contenido.Select();
+    document.designMode("copy");
+    alert("Texto Copiado");
 }
