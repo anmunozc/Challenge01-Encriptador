@@ -4,37 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
     <title>Challenge 01- Encriptador de Palabras</title>
+    <script type="text/javascript" src="script.js"></script>
+    
 </head>
 
 <body>
     <div class="container">
         <div class="logo">
-            <h1 class="titulo"> Encriptador de Palabras </h1>
-            <img class= "logoAlura" src="imagenes/Logo.png" id="logoAlura" alt="Logo Alura">
+            <img class= "logoAlura" src="imagenes/Logo.png" id="logoAlura">
+            <h1 class="tittle"> Encriptador de Palabras </h1>
         </div>
 
-    <div class="left">
-        <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aqui">
-    </div>
+        <div class="left">
+            <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aqui">
+        </div>
 
-    <div class="right">
-        <img class="figura" src="imagenes/figura.png" id="figura" alt="Persona con Lupa">
-        <h1>Ningun Mensaje Fue Encontrado</h1>
-        <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desea encriptar o desencriptar</textarea>
-        <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>
-    </div>
+        <div class="right">
+            <img src="imagenes/figura.png" id="figura">
+            <h1 id="texto">Ningun Mensaje Fue Encontrado</h1>
+            <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desea encriptar o desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>
+        </div>
 
-    <div class="left-button">
-        
+        <div class="left-button">
             <p>Solo minusculas y sin acentos</p>
-        
-        <button type="button" id="btn-Encriptar" onclick="encriptar()">Encriptar</button>
-        <button type="button" id="btn-Desencriptar" onclick="desencriptar()"> Desencriptar</button>
+            <button type="button" id="btn-encriptar" onclick="encriptar()"> Encriptar </button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()"> Desencriptar </button>
+        </div>
     </div>
-
-
 </body>
             
 <footer class="footer">
