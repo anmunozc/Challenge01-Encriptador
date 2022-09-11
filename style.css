@@ -1,19 +1,20 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: #D6CDA4;
+   background: #a1aaca;
+    
 }
 
 .container{
     margin: auto;
     width: 960px;
     height: 650px;
-}
+    }
 
 .left{
     float:left;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 65%;
     border-radius: 25px;
     outline: none;
     resize: none;
@@ -21,15 +22,15 @@ body{
 
 .right{
     float:right;
-    width: 30%;
+    width: 27%;
     height: 88%;
     border-radius: 25px;
-    background: grey;
+    background:linear-gradient(#043b79,#2e6458,#256D85, #8FE3CF);
 }
 
 .left-button{
     float:left;
-    width: 70%;
+    width: 57%;
     height: auto;
     border-radius: 25px;
 }
@@ -42,8 +43,8 @@ body{
 .text-input{
     text-size-adjust:none;
     margin: 10% 0 0 10%;
-    width: 80%;
-    height: 60%;
+    width: 70vh;
+    height: 45vh;
     color: #0A3871;
     font-size: 20px;
     text-align: center;
@@ -51,17 +52,20 @@ body{
     outline: none;
     background: #ffffff;
     border-radius: 25px;
+    background-image: url(imagenes/otoño.jpg);
 }
 
 #figura{
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 20%;
     width: 90%;
     height: auto;
+    opacity: 90%;
 }
 
 #texto{
-    margin: 0 5% 0 7%;
+   margin: 0 5% 0 7%;
+    
 }
 
 #texto2{
@@ -74,6 +78,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align:center;
     resize: none;
+    
 }
 
 #btn-encriptar{
@@ -84,12 +89,21 @@ body{
     background: #0A3871;
 }
 
+#btn-encriptar:hover{
+    background-color: #060327;
+    color: #CDDC39;
+}
+
 #btn-desencriptar{
     padding: 24px;
     width: 30%;
     border-radius: 25px;
     margin: 0 0 0 10vh;
     background: #D8DFE8;
+}
+#btn-desencriptar:hover{
+    background-color: lawngreen;
+    color: black;
 }
 
 #copiar{
@@ -103,14 +117,21 @@ body{
     display: none;
 }
 
+#copiar:hover{
+    background-color: #256D85;
+    color: #ffffff;
+}
 footer{   
-    font-size: 3vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    font-size: 2vh;
     text-align: center;
-    margin-top: 8vh;
-    background-color: #F1A661;
+    background-color: #774edf;
    }
 
 .bike{
     position:absolute;
-    width: 4vh
+    width: 3vh;
 }

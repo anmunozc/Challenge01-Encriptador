@@ -10,33 +10,38 @@
 </head>
 
 <body>
-    <div class="container">
+    <main class="container">
 
-        <div class="logo">
+        <section class="logo">
             <h1 class="tittle"> Encriptador de Palabras </h1>
             <img class= "logoAlura" src="imagenes/Logo.png" id="logoAlura">
-        </div>
+        </section>
 
-        <div class="left">
-            <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aqui">
-        </div>
+        <section>
+            <div class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese el texto aqui">
+            </div>
 
-        <div class="right">
-            <img src="imagenes/figura.png" id="figura">
-            <h1 id="texto">Ningun Mensaje Fue Encontrado</h1>
-            <textarea readonly="readonly" id="texto2" name="texto2" rows="8" cols="80" placeholder="Ingrese el texto que desea encriptar o desencriptar"></textarea>
-            <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>
-        </div>
+            <div class="right">
+                <img src="imagenes/figura.png" id="figura">
+                <h1 id="texto">Ningun Mensaje Fue Encontrado</h1>
+                <textarea readonly="readonly" id="texto2" name="texto2" rows="8" cols="80" placeholder="Ingrese el texto que desea encriptar o desencriptar"></textarea>
+                <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>
+            </div>
+        </section>
 
-        <div class="left-button">
-            <p>Solo minusculas y sin acentos</p>
-            <button type="button" id="btn-encriptar" onclick="encriptar()"> Encriptar </button>
-            <button type="button" id="btn-desencriptar" onclick="desencriptar()"> Desencriptar </button>
-        </div>
-    </div>
+        <section class="botonera">
+            <div class="left-button">
+                <p>Solo minusculas y sin acentos</p>
+                <button type="button" id="btn-encriptar" onclick="encriptar()"> Encriptar </button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()"> Desencriptar </button>
+            </div>
+        </section>
+    </main>
 </body>
-            
+
 <footer>
       <p> Diseñado por AMC ~ 2022 ~ <img class="bike" src="imagenes/bike.png" alt="bike"> </p>
 </footer>
+
 
