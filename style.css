@@ -1,21 +1,19 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: #f3f5fc;
+    background: #D6CDA4;
 }
 
 .container{
     margin: auto;
-    width: 960px;
-    height: 650px;
+    width: 1440px;
+    height: 1024px;
     padding: 5px;
-    
 }
 
 .logo{
     width: 100%;
     float: left;
-   
 }
 
 .left{
@@ -23,14 +21,15 @@ body{
     width: 70%;
     height: 70%;
     border-radius: 25px;
+    outline: none;
 }
 
 .right{
     float:right;
     width: 30%;
-    height: auto;
+    height: 80%;
     border-radius: 25px;
-    background: #FFFFFF ;
+    background-color: rgb(227, 222, 222)
 }
 
 .left-button{
@@ -52,16 +51,17 @@ body{
 }
 
 .text-input{
-    float: left;
-    margin-left: 10%;
-    margin-top: 10%;
+    text-size-adjust:none;
+    margin: 10% 0 0 10%;
     width: 80%;
     height: 60%;
     color: #0A3871;
     font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
     border: none;
     outline: none;
-    background: #F3F5FC;
+    background: #ffffff;
 }
 
 #figura{
@@ -72,19 +72,18 @@ body{
 }
 
 #texto{
-    margin-left: 7%;
-    margin-right: 5%;
-    }
+    margin: 0 5% 0 7%;
+}
 
 #texto2{
-    float: left;
-    margin-left: 10%;
+    margin: 5% 0 0 10%;
+    border-radius: 10px;
     color: #0A3871;
     width: 80%;
-    height: 60%;
-    border: none;
-    outline: none;
+    height: auto;
     font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    resize: none;
 }
 
 #btn-encriptar{
@@ -95,6 +94,7 @@ body{
     margin-left: 15%;
     background: #0A3871;
 }
+
 #btn-desencriptar{
     padding: 24px;
     width: 30%;
@@ -106,7 +106,7 @@ body{
 
 #copiar{
     margin-left: 33%;
-    margin-top: 90%;
+    margin-top: 100%;
     padding: 24px;
     width: 40%;
     height: 10%;
@@ -115,3 +115,15 @@ body{
     display: none;
 }
 
+footer{
+    font-size: 12px;
+    text-align: center;
+    margin-top: auto;
+    background-color: #F1A661;
+}
+
+.bike{
+    width: 2%;
+    height: 1%;
+    border: 0;
+}
